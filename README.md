@@ -1,6 +1,6 @@
 # Calculator-APP
 A simple command-line Java application for performing basic arithmetic operations: addition, subtraction, multiplication, and division.
-## 📦 Features
+## Features
 * Menu-driven interface
 * Supports:
   * Addition
@@ -9,16 +9,16 @@ A simple command-line Java application for performing basic arithmetic operation
   * Division
 * Input handling via `Scanner`
 * Loop continues until user chooses to exit
-## 🛠 Requirements
+## Requirements
 * Java JDK 8 or later
-## 🚀 How to Run
+## How to Run
 1. **Compile the source code**
    ```bash
-   javac CalculatorApp.java
+   module-path javafx-sdk-21.0.7\lib --add-modules javafx.controls,javafx.fxml javafx1\CalculatorApp.java
    ```
 2. **Run the application**
    ```bash
-   java CalculatorApp
+-module-path javafx-sdk-21.0.7\lib --add-modules javafx.controls,javafx.fxml javafx1.CalculatorApp
    ```
 3. **Follow on-screen menu**
    Example:

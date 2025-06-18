@@ -14,7 +14,7 @@ A simple command-line Java application for performing basic arithmetic operation
 ## How to Run
 1. **Compile the source code**
    ```bash
-   module-path javafx-sdk-21.0.7\lib --add-modules javafx.controls,javafx.fxml javafx1\CalculatorApp.java
+javac --module-path javafx-sdk-21.0.7\lib --add-modules javafx.controls,javafx.fxml javafx1\CalculatorApp.java
    ```
 2. **Run the application**
    ```bash

@@ -18,8 +18,8 @@ javac --module-path javafx-sdk-21.0.7\lib --add-modules javafx.controls,javafx.f
    ```
 2. **Run the application**
    ```bash
-java --module-path javafx-sdk-21.0.7\lib --add-modules javafx.controls,javafx.fxml javafx1.CalculatorApp
-   ```
+java --module-path javafx-sdk-21.0.7\lib --add-modules javafx.controls,javafx.fxml javafx1.CalculatorApp.
+   ```   
 3. **Follow on-screen menu**
    Example:
    ```
